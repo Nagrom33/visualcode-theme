@@ -1,0 +1,21 @@
+{
+  "name": "GurdtTheme",
+  "displayName": "gurdttheme",
+  "description": "Github Dark but then Darker",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "gurdttheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gurdttheme-color-theme.json"
+      }
+    ]
+  }
+}
